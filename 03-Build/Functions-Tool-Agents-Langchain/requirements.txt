@@ -1,0 +1,14 @@
+openai
+python-dotenv
+langchain
+langchain_community
+langchain_openai
+langsmith
+pydantic
+docarray
+wikipedia
+openapi-schema-pydantic
+tiktoken
+panel
+param
+jupyter

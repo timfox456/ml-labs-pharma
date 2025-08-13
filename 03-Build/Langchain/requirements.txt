@@ -1,0 +1,9 @@
+langchain
+openai
+langchain_community
+langchain-openai
+docarray
+wikipedia
+pandas
+panel
+jupyter

@@ -1,0 +1,23 @@
+This template represents a slide deck. It is in markdown, but I will convert it to slides. --- is the slide separator. 
+
+# Topic
+
+---
+## Slide 1
+  * Item 1
+  * Item 2
+  * Item 3
+  * Item 4
+  
+---
+## Slide 2
+* Item 1
+* Item 2
+* Item 3
+* Item 4
+
+---
+
+So, using this template, you need to create a detailed explanation of the  notebook that I am attaching
+
+Output format: raw markdown

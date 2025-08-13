@@ -1,0 +1,16 @@
+langchain-community
+openai
+python-dotenv
+pypdf
+youtube-transcript-api
+chromadb
+pytube
+tiktoken
+numpy
+lark
+langchain-openai
+panel
+param
+docarray
+pydantic
+jupyter
