@@ -1,0 +1,36 @@
+Certificate of Analysis - Product AspirinPure
+
+Batch ID: AP-2024-03-25-B004
+Date of Manufacture: 2024-03-25
+Analyst: Dr. Ben Carter
+--------------------------------------------------
+
+Test Results:
+
+1.  **Appearance Test**
+    - Specification: White crystalline powder
+    - Result: Conforms
+    - Method: Visual Inspection
+
+2.  **Assay (Purity)**
+    - Specification: 99.5% - 100.5%
+    - Result: 99.52%
+    - Method: HPLC-UV/VIS-001
+
+3.  **Dissolution Test**
+    - Specification: Not Less Than 80% dissolved in 30 minutes
+    - Result: 81%
+    - Method: USP <711>
+
+4.  **Related Substances (Impurity Profile)**
+    - Salicylic Acid:
+        - Specification: <= 0.1%
+        - Result: 0.09%
+    - Unknown Impurity A:
+        - Specification: <= 0.05%
+        - Result: 0.045%
+    - Method: HPLC-UV/VIS-002
+
+--------------------------------------------------
+Conclusion: The batch AP-2024-03-25-B004 meets all specifications.
+Approved for release.
