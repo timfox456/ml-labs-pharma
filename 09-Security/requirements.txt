@@ -1,0 +1,6 @@
+# This file contains the required Python packages for the Security lab.
+# To install them, run the following command in your terminal:
+# pip install -r requirements.txt
+
+openai
+python-dotenv
