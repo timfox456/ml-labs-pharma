@@ -1,12 +1,7 @@
-# This file contains the required Python packages for the Pharma QC labs.
+# This file contains the required Python packages for the Mamba & Jamba lab.
 # To install them, run the following command in your terminal:
 # pip install -r requirements.txt
 
 openai
 python-dotenv
-pydantic
-numpy
-scikit-learn
-matplotlib
-
 ipykernel
