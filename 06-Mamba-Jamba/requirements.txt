@@ -5,3 +5,9 @@
 openai
 python-dotenv
 ipykernel
+
+# Dependencies for the Hugging Face Jamba lab
+transformers
+torch
+accelerate
+bitsandbytes
