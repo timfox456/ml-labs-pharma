@@ -61,25 +61,50 @@ except FileNotFoundError:
 #
 # With a long-context model, we can feed the entire document in a single prompt.
 #
-# ### Exercise 1: Generate a High-Level Summary
+# ### Helper Function
+# Let's define the helper function we'll use to interact with the OpenAI API.
+
+# +
+def get_completion(prompt, system_prompt="You are a helpful assistant."):
+    """
+    A helper function to get a completion from the OpenAI API.
+    """
+    if not qbd_document_text:
+        return "Document not loaded. Please check the file path."
+        
+    try:
+        client = openai.OpenAI()
+        response = client.chat.completions.create(
+            model="gpt-4-turbo", # This model supports a large context window
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"An error occurred: {e}"
+# -
+
+### Exercise 1: Generate a High-Level Summary
 #
 # **Your Task:** Write a prompt that asks the AI to provide a high-level, one-paragraph summary of the entire document.
 
-# + 
+# +
 # YOUR PROMPT HERE
 summary_prompt = f"""
-# Please provide a concise, one-paragraph executive summary of the following document on Quality by Design (QbD).
-#
-# --- DOCUMENT ---
-# {qbd_document_text}
-# --- END DOCUMENT ---
-# """
-#
-# if qbd_document_text:
-#     print("Generating summary...")
-#     summary = get_completion(summary_prompt)
-#     print("\n--- Executive Summary ---")
-#     print(summary)
+Please provide a concise, one-paragraph executive summary of the following document on Quality by Design (QbD).
+
+--- DOCUMENT ---
+{qbd_document_text}
+--- END DOCUMENT ---
+"""
+
+if qbd_document_text:
+    print("Generating summary...")
+    summary = get_completion(summary_prompt)
+    print("\n--- Executive Summary ---")
+    print(summary)
 # - 
 
 # ### Exercise 2: Structured Extraction from the Full Document
