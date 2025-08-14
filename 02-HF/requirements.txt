@@ -7,4 +7,5 @@ datasets
 torch
 accelerate
 scikit-learn
+ipykernel
 Pillow
