@@ -1,4 +1,4 @@
-# ---
+# --- 
 # jupyter:
 #   jupytext:
 #     text_representation:
@@ -10,7 +10,7 @@
 #     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
-# # ---
+# # --- 
 
 # # Lab: Build Long-Context AI Apps with Jamba
 #
@@ -23,7 +23,7 @@
 #
 # **Note:** We will be using the OpenAI API for this lab, which may not have Jamba specifically, but we can simulate the experience by using their best long-context model (e.g., `gpt-4-turbo`) which can handle large context windows. The principles remain the same.
 #
-# ---
+# --- 
 #
 # ## 1. Setup
 #
@@ -137,7 +137,7 @@ complex_question = f"""
 #
 # However, if a question requires synthesizing information from the *introduction* and the *conclusion* of a document, RAG might fail to retrieve both chunks. A long-context model sees the entire document and can make these connections seamlessly.
 #
-# ---
+# --- 
 #
 # ## Conclusion
 #
