@@ -1,0 +1,7 @@
+Project Name: Project Alpha
+Description: A project to develop a new drug delivery system using nanotechnology.
+Status: In-Progress
+
+Project Name: Project Beta
+Description: A project for optimizing the manufacturing process of AspirinPure to increase yield by 10%.
+Status: Completed

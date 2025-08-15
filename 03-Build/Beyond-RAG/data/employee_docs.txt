@@ -1,0 +1,7 @@
+Employee: Alice Williams
+Title: Lead Scientist
+Email: a.williams@aims_pharma.com
+
+Employee: Bob Johnson
+Title: Process Engineer
+Email: b.johnson@aims_pharma.com
