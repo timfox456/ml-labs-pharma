@@ -1,0 +1,9 @@
+# Requirements for Final Project 1: RAG
+# pip install -r requirements.txt
+
+langchain
+langchain-openai
+python-dotenv
+faiss-cpu
+pandas
+ipykernel

@@ -1,0 +1,8 @@
+# Requirements for Final Project 3: Parser
+# pip install -r requirements.txt
+
+langchain
+langchain-openai
+python-dotenv
+pydantic
+ipykernel

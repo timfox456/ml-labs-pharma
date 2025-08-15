@@ -1,0 +1,8 @@
+# Requirements for Final Project 2: Agent
+# pip install -r requirements.txt
+
+langchain
+langchain-openai
+python-dotenv
+pandas
+ipykernel
